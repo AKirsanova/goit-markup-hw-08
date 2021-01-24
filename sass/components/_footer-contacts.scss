@@ -1,0 +1,17 @@
+.site-contacts {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 9px;
+
+  &__link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  &__item {
+    margin-bottom: 9px;
+  }
+}

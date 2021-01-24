@@ -1,0 +1,22 @@
+/*logo*/
+
+.logo-web {
+  display: flex;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: $accent-color;
+  list-style: none;
+  text-decoration: none;
+}
+
+.logo-studio {
+  color: $black;
+}
+
+.logo-footer {
+  color: $white;
+}
