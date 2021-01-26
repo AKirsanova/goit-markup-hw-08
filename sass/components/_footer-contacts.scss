@@ -1,8 +1,11 @@
 .site-contacts {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
   margin-top: 9px;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
 
   &__link {
     font-style: normal;

@@ -110,7 +110,6 @@ img {
 
 /*logo*/
 .logo-web {
-  display: flex;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -118,6 +117,12 @@ img {
   color: #2196f3;
   list-style: none;
   text-decoration: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .logo-web {
+    display: flex;
+  }
 }
 
 .logo-studio {
@@ -552,10 +557,15 @@ textarea:hover, textarea:focus {
 }
 
 .site-contacts {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
   margin-top: 9px;
+}
+
+@media screen and (min-width: 1200px) {
+  .site-contacts {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
 }
 
 .site-contacts__link {
@@ -628,13 +638,18 @@ textarea:hover, textarea:focus {
 }
 
 .address {
-  display: flex;
-  flex-direction: column;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  text-align: left;
   color: #ffffff;
+}
+
+@media screen and (min-width: 1200px) {
+  .address {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
 }
 
 .footer-text {
@@ -1078,13 +1093,12 @@ textarea:hover, textarea:focus {
 }
 
 .footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #2f303a;
-}
-
-.footer__container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px 0px;
   text-align: center;
+  background-color: #2f303a;
 }
 
 @media screen and (min-width: 1200px) {

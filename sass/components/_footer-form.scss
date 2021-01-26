@@ -51,12 +51,16 @@
 }
 
 .address {
-  display: flex;
-  flex-direction: column;
+
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  text-align: left;
-
+  
   color: $white;
+
+  @media screen and (min-width:1200px) {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
 }
